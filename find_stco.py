@@ -5,7 +5,7 @@
 # AVC only
 
 try:
-    f = open('C:\\Users\\korki\\Desktop\\F201308021823010.mp4','rb')
+    f = open('C:\\Users\\korki\\Desktop\\F201308021823010.mp4','rb') # 파일 경로 
     byte = 1
     cluster = 0
     fs = (-1)
@@ -58,11 +58,7 @@ try:
             part = f.read(i_chunk_addr_end - i_chunk_addr_start)
         f2.write(part)
 
-
-
     f.close()
-
-
 
 except IOError:
     print("IO error")
