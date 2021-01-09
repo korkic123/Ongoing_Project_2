@@ -2,10 +2,10 @@
 
 # Chunk Extractor v0.1
 # Created by Korkic
-# AVC only
+# MP4 only
 
 try:
-    file_path = 'C:\\Users\\korki\\Desktop\\test\\bb2.mp4'
+    file_path = 'file_path'
     f = open(file_path,'rb')
     bytes = 1
     fs = (-1)
